@@ -1,0 +1,22 @@
+Date and Time : 11/16/17 12:58:05
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+WARNING(ORCAP-1600): Net has fewer than two connections PD5 
+                    SCHEMATIC1, MCU  (187.96, 27.94) 
+WARNING(ORCAP-1600): Net has fewer than two connections PC6 
+                    SCHEMATIC1, MCU  (256.54, 17.78) 
+WARNING(ORCAP-1600): Net has fewer than two connections TXD1 
+                    SCHEMATIC1, UART  (116.84, 142.24) 
+WARNING(ORCAP-1600): Net has fewer than two connections PD8 
+                    SCHEMATIC1, MCU  (114.30, 99.06) 
+WARNING(ORCAP-1600): Net has fewer than two connections PC8 
+                    SCHEMATIC1, MCU  (114.30, 76.20) 
+
+Checking For Unconnected Bus Nets
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector TXD1 
+                    SCHEMATIC1, MCU  (187.96, 22.86) 
