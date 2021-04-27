@@ -45,13 +45,14 @@ UART0_init(9600);
 #{BUAD} = \frac{f_{osc}}{{8}({UBRR} + {1})}
 #{UBRR} = \frac{f_{osc}}{{8}{BAUD}} - {1}
 -->
-![BUAD](./img/BUAD_formula.png) ![UBRR](./img/UBRR_formula.png)
+<img src = "./img/BUAD_formula.png" width = "40%">
+<img src = "./img/UBRR_formula.png" width = "40%">
 * BAUD  : Baud rate (in bits per second, bps)
 * f_osc : System Oscillator clock frequency
 * UBRR  : Contents of the UBRRH and UBRRL Registers, (0 - 4095)
 
 | Baud Rate (bps) | UBRR | Error (%) |
-| -------- | ----------- |
+| -------- | ----------- | ----------- |
 | 9600 | 207 | 0.2 |
 | 115.2k | 16 | 2.1 |
 | 250k | 7 | 0.0 |
